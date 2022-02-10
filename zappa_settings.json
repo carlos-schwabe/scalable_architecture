@@ -1,0 +1,17 @@
+{
+    "dev":{   
+     "app_function": "app.app",
+     "project_name": "example_project",
+     "runtime": "python3.8", 
+     "s3_bucket": "<your_bucket_name>",
+     "api_key_required":false, 
+     "timeout_seconds":150 
+     "aws_environment_variables":{
+             "db_url":"url", 
+             "db_port":"port", 
+             "db_usr":"user", 
+             "db_name":"name",
+             "db_pass":"password", 
+        }
+    },
+}

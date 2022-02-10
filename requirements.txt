@@ -1,0 +1,5 @@
+zappa
+flask
+requests
+beautifulsoup4
+psycopg2
